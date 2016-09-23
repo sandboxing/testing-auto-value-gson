@@ -5,5 +5,5 @@ dependencies:
 test:
   override:
     # Build the code
-    - ./gradlew clean assemble --console=plain
+    - ./gradlew clean --console=plain
     - ./gradlew clean assemble -Dpre-dex=false --console=plain
