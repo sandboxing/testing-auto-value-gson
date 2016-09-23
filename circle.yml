@@ -6,4 +6,4 @@ test:
   override:
     # Build the code
     - ./gradlew clean --console=plain
-    - ./gradlew clean assemble -Dpre-dex=false --console=plain
+    - ./gradlew build -Dpre-dex=false --console=plain
